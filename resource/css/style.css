@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+
+.navbar-bg{
+  background-color: #F0FFF0;
+}
+
+.navbar-item {
+  display: flex;
+  justify-content: center !important;
+}
+
+.nav-item{
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-login{
+  background-color: #21B573;
+  color: #ffffff !important;
+  font-weight: 500 ;
+  padding: 5px 23px !important;
+  border-radius: 20px;
+}
+
+.nav-login:hover{
+  background-color: #3a3546;
+}
