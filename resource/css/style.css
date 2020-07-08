@@ -28,6 +28,7 @@ body {
 .btn:hover{
   background-color: #413960;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .card-deck{
@@ -62,6 +63,8 @@ body {
   border: none;
   border-radius: 18px !important;
 }
+
+
 
 /* Navbar */
 
@@ -272,12 +275,6 @@ body {
   padding: 60px 0px 50px 0px;
 }
 
-.card-deck{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
 .card-img{
   border-radius: 33px;
   padding: 15px;
@@ -292,18 +289,20 @@ text-decoration: underline;
   margin-left: 25%;
 }
 
+.see-more{
+  margin: auto;
+}
+
 .see-more-btn {
   background-color: #21B573;
   padding: 7px 28px;
   border-radius: 33px;
-  margin-top: 30px;
-}
-
-.see-more-btn a{
+  margin-top: 25px;
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 500;
 }
+
 
 /* Footer */
 
@@ -344,20 +343,6 @@ text-decoration: underline;
   font-weight: 400;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
