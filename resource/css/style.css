@@ -1,13 +1,15 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
+
 
 /* Navbar */
 
 .navbar-bg{
   background-color: #F0FFF0;
+  display: block;
 }
 
 .navbar-item {
@@ -33,4 +35,115 @@ body {
 
 .nav-login:hover{
   background-color: #3a3546;
+}
+
+
+/* Banner */
+
+.banner{
+  background-color: #F0FFF0;
+}
+
+
+.banner-items{
+  min-height: 40rem;
+  position: relative;
+}
+
+.banner-content{
+  margin-top: 180px;
+  padding-right: 50px;
+  padding-left: 15px;
+}
+
+.banner-img{
+  margin-top: 150px;
+}
+
+.banner-sub-heading{
+  font-size: 16px;
+  font-weight: 400;
+  color: #FD511A;
+}
+
+.banner-heading{
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.banner-heading span{
+  color: #21B573;
+}
+
+.banner-para{
+  font-size: 16px;
+  font-weight: 400;
+  color: #6C6B6B;
+  margin-bottom: 30px;
+}
+
+.banner-btn{
+  background-color: #21B573;
+  padding: 12px 36px;
+  border-radius: 33px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Querie */
+
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+
+  .banner-content{
+    margin-top: 125px;
+    padding-right: 0px;
+  }
+
+  .banner-img{
+    margin-top: 140px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .banner-content{
+    margin-top: 90px;
+    padding-right: 15px;
+  }
+
+  .banner-img{
+    margin-top: 65px;
+  }
 }
