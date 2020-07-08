@@ -324,16 +324,21 @@ text-decoration: underline;
   padding: 0px 10px 20px 10px;
 }
 
-.course-links li {
+.link{
   font-size: 16px;
   font-weight: 400;
-  color: #FFFFFF;
-  list-style: none;
 }
 
-.course-links .links-title{
+.link:hover{
+  color: #CDCDCD;
+  text-decoration: none;
+}
+
+.quick-links .links-title{
   font-size: 18px;
   font-weight: 600;
+  list-style: none;
+  color: #FFFFFF;
   list-style: none;
 }
 
