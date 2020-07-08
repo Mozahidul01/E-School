@@ -1,9 +1,29 @@
+/*!
+ * E-School Template
+ * Copyright by Mozahidul Islam
+ * Author: Mozahidul Islam
+ * Version: 1.00
+ */
+
+
+/* Common Style */
+
 body {
   padding: 0;
   margin: 0;
   font-family: 'Nunito', sans-serif;
 }
 
+.section-title{
+  font-size: 36px;
+  font-weight: 800;
+  color: #413960;
+}
+
+.btn:hover{
+  background-color: #413960;
+  color: #FFFFFF;
+}
 
 /* Navbar */
 
@@ -87,7 +107,7 @@ body {
 
 .banner-btn{
   background-color: #21B573;
-  padding: 12px 36px;
+  padding: 10px 36px;
   border-radius: 33px;
   font-size: 16px;
   font-weight: 500;
@@ -133,19 +153,67 @@ body {
   color: #585859;
 }
 
+/* Course */
 
+#course{
+  padding: 50px 0px;
+}
 
+.card-deck{
+  margin: 50px 0px;
+}
 
+.card{
+  border: none;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
 
+.card-img{
+  padding: 20px 15px 0px 15px;
+}
 
+.card-title{
+  font-size: 24px;
+  font-weight: 600;
+  color: #413960;
+}
 
+.card-text{
+  font-size: 16px;
+  font-weight: 400;
+  color: #585859;
+}
 
+.course-btn{
+  background-color: #21B573;
+  padding: 7px 30px;
+  border-radius: 33px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
 
+.card-footer{
+  background-color: #ffffff;
+  border: none;
+  border-radius: 18px !important;
+}
 
+.course-date, .course-seat{
+  font-size: 16px;
+  font-weight: 500;
+  color: #585859;
+  padding: 0px 10px;
+}
 
+/* Testimonial */
 
-
-
+.testi-text{
+  font-size: 16;
+  color: #000000;
+}
 
 
 
@@ -180,6 +248,6 @@ body {
   }
 
   .service-content{
-    margin: 25px 10px 10px 10px;
+    margin: 25px 5px 10px 5px;
   }
 }
