@@ -94,14 +94,44 @@ body {
   color: #ffffff;
 }
 
+/* Service */
 
+.service{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 
+.service-content{
+  width: 270px;
+  height: 270px;
+  background: #F8FFFB;
+  border-radius: 10px;
+}
 
+.service-content:hover{
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-decoration: none;
+}
 
+.service-icon{
+  width: 75px;
+  height: 80px;
+}
 
+.service-title{
+  font-size: 24px;
+  font-weight: 600;
+  color: #413960;
+  margin-top: 20px;
+}
 
-
-
+.service-info{
+  font-size: 16px;
+  font-weight: 400;
+  color: #585859;
+}
 
 
 
@@ -146,5 +176,10 @@ body {
   .banner-img{
     margin-top: 65px;
     padding-bottom: 60px;
+    display: block;
+  }
+
+  .service-content{
+    margin: 25px 10px 10px 10px;
   }
 }
